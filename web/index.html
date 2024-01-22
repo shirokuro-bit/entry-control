@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>From</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/encoding-japanese/2.0.0/encoding.js" integrity="sha512-vaCo7tf//3zOfbhMkG2cwdcR4XGe8V6V9UEqLYaZ02WcW0QioesBenI0awCRCNVZqAo34uG3gUGxkOCoIjJYVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+<form>
+  <div>
+    <label>名前
+      <input type="text" name="name">
+    </label>
+  </div>
+  <div>
+    <label>学生番号
+      <input type="text" name="id">
+    </label>
+  </div>
+  <button type="button" onclick="onClick()">生成</button>
+</form>
+<canvas id="qrcode">
+</canvas>
+</body>
+</html>
